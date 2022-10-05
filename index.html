@@ -1,36 +1,102 @@
 <!DOCTYPE html>
-<html lang="hu" style="background-color: #4e4a4a;">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <title>Pink Floyd rajongói oldal</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dosis:wght@700&family=Fjalla+One&display=swap');
+
+        html {
+            background-color: #4e4a4a;
+            margin: 20px;
+        }
+
+        .title {
+            font-family: 'Caveat', cursive;
+            font-size: 70px;
+            color: palevioletred;
+            text-shadow: 2px 2px 3px black;
+            text-align: center;
+            margin-bottom: -10px;
+            margin-top: -10px;
+        }
+
+        .tabs {
+            font-size: 30px;
+            color: lightblue;
+            font-family: 'Dosis';
+            text-shadow: 2px 1px 5px black;
+            text-decoration: none;
+            margin-right: 50px;
+        }
+
+        .members {
+            color: #e67919;
+            font-family: 'Fjalla One';
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .text {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            font-weight: normal;
+        }
+
+        .tabselector {
+            text-align: center;
+        }
+
+        img {
+            width: 170px;
+            margin-top: 20px;
+        }
+
     </style>
 </head>
 <body>
 
-    <h1 style="font-family: 'Caveat', cursive; font-size: 50px; color: palevioletred; text-shadow: 2px 2px 3px black;">Pink Floyd<h1>
+    <h1 class="title">Pink Floyd rajongói oldal<h1>
 
-    <h2 style="font-size: 27px; color: #43b84d; font-family: Arial, Helvetica, sans-serif;">Tagok</h2>
+    <div class="tabselector">
+        <a class="tabs" href="tagok.html">Tagok</a>
+        <a class="tabs" href="">Másik oldal</a>
+    </div>
 
-    <a style="color: #e67919; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold;" href="https://hu.wikipedia.org/wiki/Syd_Barrett" target="_blank">Syd Barrett (volt tag)</a>
+    <a class="members" href="https://hu.wikipedia.org/wiki/Syd_Barrett" target="_blank">Syd Barrett (volt tag)</a>
+    
+    <div><a href="https://hu.wikipedia.org/wiki/Syd_Barrett" target="_blank"><img src="images/syd.jpg" alt="Syd Barrett"></a></div>
 
-    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Syd Barrett (teljes nevén: Roger Keith Barrett) (Cambridge, 1946. január 6. – Cambridge, 2006. július 7.)</b> angol énekes, gitáros, zeneszerző. Legtöbben a Pink Floyd egyik alapítójaként ismerik. Karrierje csak néhány évig tartott, mielőtt abbahagyta a zenélést és elvonult a nyilvánosság elől. Kreativitása és jellegzetes, brit kiejtése sok későbbi művészre volt nagy hatással.</p>
+    <p class="text"><b>Syd Barrett (teljes nevén: Roger Keith Barrett) (Cambridge, 1946. január 6. – Cambridge, 2006. július 7.)</b> angol énekes, gitáros, zeneszerző. Legtöbben a Pink Floyd egyik alapítójaként ismerik. Karrierje csak néhány évig tartott, mielőtt abbahagyta a zenélést és elvonult a nyilvánosság elől. Kreativitása és jellegzetes, brit kiejtése sok későbbi művészre volt nagy hatással.</p>
 
-    <a style="color: #e67919; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold;" href="https://hu.wikipedia.org/wiki/Roger_Waters" target="_blank">Roger Waters</a>
 
-    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>George Roger Waters (Great Bookham, 1943. szeptember 6. –)</b> angol énekes, basszusgitáros és zeneszerző. Leginkább a Pink Floyd tagjaként ismert; 1965-től a zenekar basszusgitárosa, 1968-tól pedig fő dalszerzője és egyik énekese volt. A Pink Floyd frontembereként hatalmas nemzetközi sikereket értek el olyan koncepcióalbumokkal, mint a <b><i>The Dark Side of the Moon, Wish You Were Here, Animals és a The Wall.</i></b> Az 1980-as évekre a zene történelmének egyik legsikeresebb zenekara lettek, mind kereskedelmi, mind kritikai téren. 2013-ig több mint <b>250 millió</b> albumot adtak el világszerte.</p>
+    <a class="members" href="https://hu.wikipedia.org/wiki/Roger_Waters" target="_blank">Roger Waters</a>
 
-    <a style="color: #e67919; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold;" href="https://hu.wikipedia.org/wiki/David_Gilmour" target="_blank">David Gilmour</a>
+    <div><a href="https://hu.wikipedia.org/wiki/Roger_Waters" target="_blank"><img src="images/roger.jpg" alt="Roger Waters"></a></div>
 
-    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>David Jon Gilmour (Cambridge, 1946. március 6. –)</b>, a Pink Floyd nevű brit együttes énekese, gitárosa és fő dalszerzője. Mint felvételvezető rengeteg előadóval dolgozott már együtt élete során és sikeres szólókarriert tudhat maga mögött a Pink Floyd feloszlása után. Számos jótékonysági szervezetnek adományozott és 2003-ban A Brit Birodalom Rendje kitüntetés tulajdonosa lett. 2008-ban „Kimagasló Közreműködő” nevű Q Awards-díjat kapott, amit a már elhunyt Richard Wrightnak ajánlott fel. 2011-ben a Rolling Stone magazin a 14. helyre sorolta be Gilmourt a <b><i><a href="https://www.rollingstone.com/music/music-lists/100-greatest-guitarists-153675/" style="color: white;" target="_blank">Minden idők 100 legjobb gitárosa listán.</a></i></b></p>
+    <p class="text"><b>George Roger Waters (Great Bookham, 1943. szeptember 6. –)</b> angol énekes, basszusgitáros és zeneszerző. Leginkább a Pink Floyd tagjaként ismert; 1965-től a zenekar basszusgitárosa, 1968-tól pedig fő dalszerzője és egyik énekese volt. A Pink Floyd frontembereként hatalmas nemzetközi sikereket értek el olyan koncepcióalbumokkal, mint a <b><i>The Dark Side of the Moon, Wish You Were Here, Animals és a The Wall.</i></b> Az 1980-as évekre a zene történelmének egyik legsikeresebb zenekara lettek, mind kereskedelmi, mind kritikai téren. 2013-ig több mint <b>250 millió</b> albumot adtak el világszerte.</p>
 
-    <a style="color: #e67919; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold;" href="https://hu.wikipedia.org/wiki/Nick_Mason" target="_blank">Nick Mason</a>
 
-    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Nicholas Berkeley "Nick" Mason (Birmingham, 1944. január 27. –)</b> a Pink Floyd dobosa, aki az együttes 1964-es megalakulása óta állandó tag. Bill Mason dokumentumfilmes fiaként született Mason Birminghamben, de London Hampstead nevű városrészében nőtt fel. Tanulmányait a Regent Street-i Műszaki Főiskolán végezte, ahol Roger Waters, Bob Klose és Richard Wright társaságában 1964-ben megalapította a <b><i>Sigma 6</i></b> nevű zenekart, a Pink Floyd korai elődjét.</p>
+    <a class="members" href="https://hu.wikipedia.org/wiki/David_Gilmour" target="_blank">David Gilmour</a>
 
-    <a style="color: #e67919; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold;" href="https://hu.wikipedia.org/wiki/Richard_Wright_(zen%C3%A9sz)" target="_blank">Richard Wright</a>
+    <div><a href="https://hu.wikipedia.org/wiki/David_Gilmour" target="_blank"><img src="images/david.jpg" alt="David Gilmour"></a></div>
 
-    <p style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>Richard William „Rick” Wright (London, 1943. július 28. – London, 2008. szeptember 15.)</b> zongorista és billentyűs, leginkább a Pink Floyd tagjaként ismert. Bár nem olyan termékeny zeneszerző, mint zenésztársai, Roger Waters és David Gilmour, Wright billentyűjátékával nagyban hozzájárult a Pink Floyd sikeréhez. A Pink Floyd korai éveiben pszichedelikus hangzású, billentyűs hangszerekre épülő zenei világa meghatározta az együttes különleges, egyedi hangzását. Wright gyakran énekelt háttérénekesként a Floyd albumokon, vezető énekesként ritkán hallható (ezen ritka dalok közé tartozik a <b><i>Time és az Echoes</i></b>).</p>
+    <p class="text"><b>David Jon Gilmour (Cambridge, 1946. március 6. –)</b>, a Pink Floyd nevű brit együttes énekese, gitárosa és fő dalszerzője. Mint felvételvezető rengeteg előadóval dolgozott már együtt élete során és sikeres szólókarriert tudhat maga mögött a Pink Floyd feloszlása után. Számos jótékonysági szervezetnek adományozott és 2003-ban A Brit Birodalom Rendje kitüntetés tulajdonosa lett. 2008-ban „Kimagasló Közreműködő” nevű Q Awards-díjat kapott, amit a már elhunyt Richard Wrightnak ajánlott fel. 2011-ben a Rolling Stone magazin a 14. helyre sorolta be Gilmourt a <b><i><a href="https://www.rollingstone.com/music/music-lists/100-greatest-guitarists-153675/" style="color: rgb(247, 3, 3);" target="_blank">Minden idők 100 legjobb gitárosa listán.</a></i></b></p>
+
+
+    <a class="members" href="https://hu.wikipedia.org/wiki/Nick_Mason" target="_blank">Nick Mason</a>
+
+    <div><a href="https://hu.wikipedia.org/wiki/Nick_Mason" target="_blank"><img src="images/nick.jpg" alt="Nick Mason"></a></div>
+
+    <p class="text"><b>Nicholas Berkeley "Nick" Mason (Birmingham, 1944. január 27. –)</b> a Pink Floyd dobosa, aki az együttes 1964-es megalakulása óta állandó tag. Bill Mason dokumentumfilmes fiaként született Mason Birminghamben, de London Hampstead nevű városrészében nőtt fel. Tanulmányait a Regent Street-i Műszaki Főiskolán végezte, ahol Roger Waters, Bob Klose és Richard Wright társaságában 1964-ben megalapította a <b><i>Sigma 6</i></b> nevű zenekart, a Pink Floyd korai elődjét.</p>
+
+
+    <a class="members" href="https://hu.wikipedia.org/wiki/Richard_Wright_(zen%C3%A9sz)" target="_blank">Richard Wright</a>
+
+    <div><a href="https://hu.wikipedia.org/wiki/Richard_Wright_(zen%C3%A9sz)" target="_blank"><img src="images/rick.jpg" alt="Richard Wright"></a></div>
+
+    <p class="text"><b>Richard William „Rick” Wright (London, 1943. július 28. – London, 2008. szeptember 15.)</b> zongorista és billentyűs, leginkább a Pink Floyd tagjaként ismert. Bár nem olyan termékeny zeneszerző, mint zenésztársai, Roger Waters és David Gilmour, Wright billentyűjátékával nagyban hozzájárult a Pink Floyd sikeréhez. A Pink Floyd korai éveiben pszichedelikus hangzású, billentyűs hangszerekre épülő zenei világa meghatározta az együttes különleges, egyedi hangzását. Wright gyakran énekelt háttérénekesként a Floyd albumokon, vezető énekesként ritkán hallható (ezen ritka dalok közé tartozik a <b><i>Time és az Echoes</i></b>).</p>
+
 </body>
 </html>
