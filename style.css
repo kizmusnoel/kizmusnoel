@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dosis:wght@700&family=Fjalla+One&display=swap');
+
+html {
+    background-color: #4e4a4a;
+    margin: 20px;
+}
+
+.title {
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    color: palevioletred;
+    text-shadow: 2px 3px 3px black;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.nav {
+    font-size: 30px;
+    color: lightblue;
+    font-family: 'Dosis';
+    text-shadow: 2px 1px 5px black;
+    text-decoration: none;
+    margin-right: 50px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.nav:hover {
+    color: #e67919;
+}
+
+.members {
+    color: #e67919;
+    font-family: 'Fjalla One';
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
+}
+
+.text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px red;
+}
+
+.navselector {
+    text-align: center;
+}
+
+.memberpic {
+    width: 170px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px lightcoral;
+}
