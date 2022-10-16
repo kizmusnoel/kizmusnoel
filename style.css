@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dosis:wght@700&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dosis:wght@700&family=Fjalla+One&family=Quicksand:wght@700&display=swap');
 
 html {
     background-color: #4e4a4a;
@@ -51,7 +51,7 @@ html {
 
 .heading {
     color: #e67919;
-    font-family: 'Fjalla One';
+    font-family: 'Quicksand';
     font-size: 30px;
     font-weight: bold;
     text-shadow: 1px 1px 4px black;
@@ -91,7 +91,7 @@ html {
 }
 
 .heading2 {
-    font-family: 'Fjalla One';
+    font-family: 'Quicksand';
     font-size: 30px;
     font-weight: bold;
     text-shadow: 1px 1px 4px black;
