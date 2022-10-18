@@ -18,7 +18,7 @@ html {
 .nav {
     font-size: 30px;
     color: rgb(154, 180, 39);
-    font-family: 'Dosis';
+    font-family: 'Courier New', Courier, monospace;
     text-shadow: 2px 1px 5px black;
     text-decoration: none;
     margin-right: 50px;
@@ -114,6 +114,13 @@ html {
     border: 3px solid rgba(218, 18, 58, 0.84);
     border-radius: 5px;
     box-shadow: 3px 6px 5px rgba(218, 18, 58, 0.50);
+    transition: 0.6s;
+}
+
+.albumcovers:hover {
+    width: 200px;
+    height: 200px;
+    transition: 0.6s;
 }
 
 .albumlist {
