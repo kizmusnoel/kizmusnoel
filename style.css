@@ -13,6 +13,13 @@ html {
     text-align: center;
     margin-bottom: -10px;
     margin-top: -10px;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.title:hover {
+    color: yellow;
+    text-shadow: 2px 2px 5px blueviolet;
 }
 
 .nav {
@@ -28,6 +35,7 @@ html {
     color: white;
     text-decoration: none;
     position: relative;
+    font-weight: bold;
 }
 
 .nav::after {
@@ -129,4 +137,16 @@ html {
     background-color: rgba(218, 18, 58, 0.50);
     border: 2px solid rgba(218, 18, 58, 0.84);
     border-radius: 5px;
+}
+
+.head {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+
+#logo {
+    width: 200px;
+    margin-left: 50%;
 }
