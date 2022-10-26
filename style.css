@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dosis:wght@700&family=Fjalla+One&family=Quicksand:wght@700&display=swap');
 
+/* #252021,#FDD967,#F2EFD4,#9F9373,#C7B47C */
+
 html {
-    background-color: #4e4a4a;
+    background-color: #364147;
     margin: 20px;
 }
 
 .title {
     font-family: 'Caveat', cursive;
     font-size: 70px;
-    color: palevioletred;
+    color: #d19232;
     text-shadow: 2px 3px 3px black;
     margin-bottom: -10px;
     margin-top: -10px;
@@ -32,7 +34,7 @@ html {
     background-color: transparent;
     outline: none;
     transition: ease-out 0.3s;
-    color: white;
+    color: #a66300;
     text-decoration: none;
     position: relative;
     font-weight: bold;
@@ -46,7 +48,7 @@ html {
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: whitesmoke;
+    background-color: #a66300;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
     box-shadow: 3px 3px 5px black;
@@ -59,7 +61,7 @@ html {
 
 
 .heading {
-    color: #e67919;
+    color: #C7B47C;
     font-family: 'Quicksand';
     font-size: 30px;
     font-weight: bold;
@@ -83,28 +85,30 @@ html {
     transition: 0.3s;
 }
 
-.navselector {
+nav {
     text-align: center;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: #590600;
     padding: 20px 20px;
     margin: 0 -28px;
+    border-bottom: 3px solid black;
+    box-shadow: 1px 0 5px black;
 }
 
 .memberpic {
     width: 170px;
     margin-top: 20px;
-    border: 3px solid rgba(218, 18, 58, 0.84);
+    border: 3px solid #d19232;
     border-radius: 5px;
-    box-shadow: 3px 6px 5px rgba(218, 18, 58, 0.50);
+    box-shadow: 3px 6px 5px #533b16;
     transition: 0.6s;
 }
 
 .memberpic:hover {
     scale: 110%;
     transition: 0.6s;
-    border: 3px solid rgba(183, 21, 233, 0.84);
+    border: 3px solid #590600;
     border-radius: 5px;
-    box-shadow: 3px 6px 5px rgba(183, 21, 233, 0.50);
+    box-shadow: 3px 6px 5px #240301;
 }
 
 .text2 {
@@ -131,7 +135,7 @@ html {
     font-weight: bold;
     text-shadow: 1px 1px 4px black;
     margin-left: 40px;
-    color: orange;
+    color: #FDD967;
 }
 
 .albumdiv {
@@ -146,26 +150,26 @@ html {
     margin: 20px;
     width: 130px;
     height: 130px;
-    border: 3px solid rgba(218, 18, 58, 0.84);
+    border: 3px solid #d19232;
     border-radius: 5px;
-    box-shadow: 3px 6px 5px rgba(218, 18, 58, 0.50);
+    box-shadow: 3px 6px 5px #533b16;
     transition: 0.6s;
 }
 
 .albumcovers:hover {
     scale: 130%;
     transition: 0.6s;
-    border: 3px solid rgba(183, 21, 233, 0.84);
+    border: 3px solid #590600;
     border-radius: 5px;
-    box-shadow: 3px 6px 5px rgba(183, 21, 233, 0.50);
+    box-shadow: 3px 6px 5px #240301;
 
 }
 
 .albumlist {
     width: 400px;
     white-space: nowrap;
-    background-color: rgba(218, 18, 58, 0.50);
-    border: 2px solid rgba(218, 18, 58, 0.84);
+    background-color: #d19232;
+    border: 2px solid #6b4c1d;
     border-radius: 5px;
 }
 
