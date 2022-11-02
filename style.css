@@ -33,30 +33,19 @@ html {
     margin-right: 50px;
     background-color: transparent;
     outline: none;
-    transition: ease-out 0.3s;
+    transition: 0.5s;
     color: #a66300;
     text-decoration: none;
     position: relative;
     font-weight: bold;
+    padding: 7px;
 }
 
-.nav::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 4px;
-    bottom: 0;
-    left: 0;
-    background-color: #a66300;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-    box-shadow: 3px 3px 5px black;
-}
-  
-.nav:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.nav:hover {
+    transition: 0.5s;
+    background-color: rgba(117, 89, 37, 0.8);
+    border: 0px solid;
+    border-radius: 15px;
 }
 
 
