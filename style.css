@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dosis:wght@700&family=Fjalla+One&family=Quicksand:wght@700&display=swap');
 
-/* #252021,#FDD967,#F2EFD4,#9F9373,#C7B47C */
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
 html {
     background-color: #364147;
     margin: 20px;
-}
-
-a {
-    color: white;
 }
 
 .title {
@@ -31,7 +26,7 @@ a {
 .nav {
     font-size: 30px;
     color: rgb(154, 180, 39);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rubik', sans-serif;
     text-shadow: 2px 1px 5px black;
     text-decoration: none;
     margin-right: 50px;
@@ -42,12 +37,12 @@ a {
     text-decoration: none;
     position: relative;
     font-weight: bold;
-    padding: 7px;
+    padding: 10px;
 }
 
 .nav:hover {
     transition: 0.5s;
-    background-color: rgba(117, 89, 37, 0.8);
+    background-color: rgba(172, 31, 12, 0.4);
     border: 0px solid;
     border-radius: 15px;
 }
@@ -85,6 +80,7 @@ nav {
     margin: 0 -28px;
     border-bottom: 3px solid black;
     box-shadow: 1px 0 5px black;
+    margin-bottom: 20px;
 }
 
 .memberpic {
@@ -176,15 +172,32 @@ nav {
     transition: 0.5s;
 }
 
-.head:hover {
-    scale: 110%;
-    transition: 0.5s;
-}
-
 #logo {
     width: 200px;
 }
 
 .lower {
     font-size: large;
+}
+
+#footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    margin: 0;
+    color: black;
+    background-color: #526570;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    border-top: 1px solid black;
+   }
+
+.sideimg {
+    float: right;
+    margin: 0 30px;
+    scale: 120%;
+    border: 2px dashed orange;
 }
