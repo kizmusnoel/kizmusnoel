@@ -200,4 +200,25 @@ nav {
     margin: 0 30px;
     scale: 120%;
     border: 2px dashed orange;
+    top: -10px;
+    position: relative;
+}
+
+#albumTable1 {
+    border-collapse: collapse;
+    background-color: #590600;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Quicksand';
+    color: white;
+    font-size: 17px;
+    border: 2px solid orangered;
+    box-shadow: 5px 5px 5px #240301;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#albumTable1 td {
+    border: 1px solid orangered;
+    padding: 10px;
 }
