@@ -1,21 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dosis:wght@700&family=Fjalla+One&family=Quicksand:wght@700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
-html {
-    background-color: #364147;
+
+body {
+    background-color: #222121;
     margin: 20px;
+    margin-bottom: 40px;
 }
 
 .title {
     font-family: 'Caveat', cursive;
     font-size: 70px;
-    color: #d19232;
+    color: rgb(131, 122, 122);
     text-shadow: 2px 3px 3px black;
     margin-bottom: -10px;
     margin-top: -10px;
     transition: 0.4s;
     text-decoration: none;
     white-space: nowrap;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 .title:hover {
@@ -77,10 +81,13 @@ nav {
     text-align: center;
     background-color: #590600;
     padding: 20px 20px;
-    margin: 0 -28px;
+    margin: 0 -20px;
     border-bottom: 3px solid black;
     box-shadow: 1px 0 5px black;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 
 .memberpic {
@@ -170,10 +177,18 @@ nav {
     justify-content: center;
     margin-bottom: 30px;
     transition: 0.5s;
+    flex-direction: column;
+    text-align: center;
 }
 
 #logo {
     width: 200px;
+    transition: 0.5s;
+}
+
+#logo:hover {
+    transform: rotate(-10deg);
+    transition: 0.5s;
 }
 
 .lower {
@@ -186,8 +201,8 @@ nav {
     left:0;
     width:100%;
     margin: 0;
-    color: black;
-    background-color: #526570;
+    color: white;
+    background-color: #222121;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: large;
